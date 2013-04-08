@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableaux</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ventes des tableaux des peintres connus">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+    <link rel="stylesheet" href="assets/css/art-toilecss.css">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/font-awesome-ie7.css" rel="stylesheet">
+</head>
+
+<body>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39041320-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="span2">
+                <a href="index.html" class="brand brand-bootbus"><img src="assets/img/logo-art-toile.png"
+                                                                      alt="logo art-toile"></a>
+            </div>
+            <div class="span9">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav pull-right">
+                    <li><a href="">Se login</a></li>
+                    <li><a href="">Panier</a></li>
+                </ul>
+
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Toiles & Cadres<b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tableaux.html">Toiles</a></li>
+                                <li><a href="">Cadres</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Expertise</a></li>
+                                <li><a href="">Restauration</a></li>
+                                <li><a href="">Livraison</a></li>
+                                <li><a href="">Les services</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">À propos<b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Notre travaille</a></li>
+                                <li><a href="">Notre Leadership</a></li>
+                                <li><a href="personnel.html">Notre Personnel</a></li>
+                                <li><a href="">Nouveauté</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="contact.html">contacter</a></li>
+                        <li>
+                            <form id="search-form" class="navbar-form">
+                                <input type="text" name="search">
+                                <a href="#"></a>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- tableau -->
+<div id="content">
+<div class="tableau tableau-page container">
+<div class="page-header">
+    <h1>Tableaux</h1>
+</div>
+<div class="row">
+    <div class="tableau-navigator span12">
+        <h4 class="filter-tableau">
+            <a class="all" id="active-imgs" href="#">All</a> /
+            <a class="claude-monet" href="#">Claude Monet</a> /
+            <a class="edouard-manet" href="#">Édouard Manet</a> /
+            <a class="ernst-ludwig-kirchner" href="#">Ernst Ludwig Kirchner</a> /
+            <a class="leonard-de-vinci" href="#">Léonard de Vinci</a> /
+            <a class="michel-ange" href="#">Michel-Ange</a> /
+            <a class="van-gogh" href="#">Van Gogh</a>
+        </h4>
+    </div>
+</div>
+<div class="row">
+<ul class="tableau-img">
+<li data-id="p-1" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/champ-de-coquelicots.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/champ-de-coquelicots.jpg"
+                 alt="Claude Monet, Champ de coquelicots">
+        </a>
+        <h4>Champ de coquelicots (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-2" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/au-cafe-concert.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/au-cafe-concert.jpg" alt="Édouard Manet, Au café concert">
+        </a>
+        <h4>Au café concert (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-3" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/artiste-marzella.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/artiste-marzella.jpg"
+                 alt="Ernst Ludwig Kirchner, Artiste Marzella">
+        </a>
+        <h4>Artiste Marzella (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-4" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/jeune-femme-a-ombrelle.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/jeune-femme-a-ombrelle.jpg"
+                 alt="Claude Monet, Jeune femme à ombrelle">
+        </a>
+        <h4>Jeune femme à ombrelle (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-5" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/ballet-espagnol.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/ballet-espagnol.jpg" alt="Édouard Manet, Ballet espagnol">
+        </a>
+        <h4>Ballet espagnol (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-6" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/cavaliere-cirque.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/cavaliere-cirque.jpg"
+                 alt="Ernst Ludwig Kirchner, Cavalière cirque">
+        </a>
+        <h4>Cavalière cirque (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-7" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/la-femme-a-l-ombrelle.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/la-femme-a-l-ombrelle.jpg"
+                 alt="Claude Monet, La femme à l’ombrelle">
+        </a>
+        <h4>La femme à l’ombrelle (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-8" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/chemin-de-fer.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/chemin-de-fer.jpg"
+                 alt="Ernst Ludwig Kirchner, Chemin de fer">
+        </a>
+        <h4>Chemin de fer (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-9" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/le-pont-d-argentueil.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/le-pont-d-argentueil.jpg"
+                 alt="Claude Monet, Le Pont d'Argentueil">
+        </a>
+        <h4>Le Pont d'Argentueil (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-10" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/bal-masque-opera.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/bal-masque-opera.jpg" alt="Édouard Manet, Bal masqué opéra">
+        </a>
+        <h4>Bal masqué opéra (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-11" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/les-iris-de-giverny.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/les-iris-de-giverny.jpg" alt="Claude Monet, Les iris de Giverny">
+        </a>
+        <h4>Les iris de Giverny (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-12" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/coucher-de-soleil-en-montagne.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/coucher-de-soleil-en-montagne.jpg"
+                 alt="Ernst Ludwig Kirchner, Coucher de soleil en montagne">
+        </a>
+        <h4>Coucher de soleil en montagne (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-13" data-type="claude-monet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/claude-monet/l-etang-aux-nenuphars.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/claude-monet/l-etang-aux-nenuphars.jpg"
+                 alt="Claude Monet, L étang aux Nénuphars">
+        </a>
+        <h4>L étang aux Nénuphars (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-14" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/bar-folies-bergere.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/bar-folies-bergere.jpg" alt="Édouard Manet, Bar folies bergère">
+        </a>
+        <h4>Bar folies bergère (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-15" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/autoportrait.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/autoportrait.jpg"
+                 alt="Ernst Ludwig Kirchner, Autoportrait">
+        </a>
+        <h4>Autoportrait (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-16" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/bapteme-christ.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/bapteme-christ.jpg"
+                 alt="Léonard de Vinci, Bâptème du christ">
+        </a>
+        <h4>Bâptème du christ (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-17" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/conservatoire.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/conservatoire.jpg" alt="Édouard Manet, Conservatoire">
+        </a>
+        <h4>Conservatoire (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-18" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/deux-femmes-dans-la-rue.jpeg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/deux-femmes-dans-la-rue.jpeg"
+                 alt="Ernst Ludwig Kirchner, Deux femmes dans la rue">
+        </a>
+        <h4>Deux femmes dans la rue (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-19" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/cene.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/cene.jpg" alt="Léonard de Vinci, Cène">
+        </a>
+        <h4>Cène (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-20" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/a-creation-du-soleil.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/a-creation-du-soleil.jpg" alt="Michel-Ange, À création du soleil">
+        </a>
+        <h4>À création du soleil (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-21" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/chambre_van_gohg.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/chambre_van_gohg.jpg" alt="Van Gogh, Chambre de Van Gohg">
+        </a>
+        <h4>Chambre de Van Gohg (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-22" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/le-dejeuner-sur-herbe.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/le-dejeuner-sur-herbe.jpg"
+                 alt="Édouard Manet, Le déjeuner sur l'herbe">
+        </a>
+        <h4>Le déjeuner sur l'herbe (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-23" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/ginevra-de-benci.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/ginevra-de-benci.jpg"
+                 alt="Léonard de Vinci, Ginevra de benci">
+        </a>
+        <h4>Ginevra de benci (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-24" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/eglise-auvers.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/eglise-auvers.jpg" alt="Van Gogh, Église Auvers">
+        </a>
+        <h4>Église Auvers (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-25" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/gnudo.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/gnudo.jpg" alt="Michel-Ange, Gnudo">
+        </a>
+        <h4>Gnudo (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-26" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/nana.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/nana.jpg" alt="Édouard Manet, Nana">
+        </a>
+        <h4>Nana (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-27" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/la-musique-aux-tuileries.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/la-musique-aux-tuileries.jpg"
+                 alt="Édouard Manet, La musique aux tuileries">
+        </a>
+        <h4>La musique aux tuileries (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-28" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/la-belle-ferroniere.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/la-belle-ferroniere.jpg"
+                 alt="Léonard de Vinci, La belle ferronière">
+        </a>
+        <h4>La belle ferronière (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-29" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/la-creation-d-adam.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/la-creation-d-adam.jpg" alt="Michel-Ange, La création d'adam">
+        </a>
+        <h4>La création d'adam (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-30" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/la-nuit-etoilee.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/la-nuit-etoilee.jpg"
+                 alt="Van Gogh, La Nuit Étoilée, La Nuit Étoilée">
+        </a>
+        <h4>La Nuit Étoilée (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-31" data-type="edouard-manet" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/edouard-manet/nymphe-surprise.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/edouard-manet/nymphe-surprise.jpg" alt="Édouard Manet, Nymphe surprise">
+        </a>
+        <h4>Nymphe surprise (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-32" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/place-belle-alliance-berlin.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/place-belle-alliance-berlin.jpg"
+                 alt="Ernst Ludwig Kirchner, Place belle alliance berlin">
+        </a>
+        <h4>Place belle alliance berlin (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-33" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/la-sibylle-de-cumes.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/la-sibylle-de-cumes.jpg" alt="Michel-Ange, La sibylle de cumes">
+        </a>
+        <h4>La sibylle de cumes (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-34" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/les-alyscamps.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/les-alyscamps.jpg" alt="Van Gogh, Les Alyscamps">
+        </a>
+        <h4>Les Alyscamps (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-35" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/la-belle-milanaise.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/la-belle-milanaise.jpg"
+                 alt="Léonard de Vinci, La belle milanaise">
+        </a>
+        <h4>La belle milanaise (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-36" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/la-sibylle-de-delphes.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/la-sibylle-de-delphes.jpg"
+                 alt="Michel-Ange, La sibylle de delphes">
+        </a>
+        <h4>La sibylle de delphes (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-37" data-type="ernst-ludwig-kirchner" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/ernst-ludwig-kirchner/rue-berlin.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/ernst-ludwig-kirchner/rue-berlin.jpg" alt="Ernst Ludwig Kirchner, Rue berlin">
+        </a>
+        <h4>Rue berlin (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-38" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/la-joconde.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/la-joconde.jpg" alt="Léonard de Vinci, La Joconde">
+        </a>
+        <h4>La Joconde (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-39" data-type="michel-ange" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/michel-ange/supplice-saint-antoine.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/michel-ange/supplice-saint-antoine.jpg"
+                 alt="Michel-Ange, Supplice Saint-Antoine">
+        </a>
+        <h4>Supplice Saint-Antoine (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-40" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/les-tournesols.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/les-tournesols.jpg" alt="Van Gogh, Les tournesols">
+        </a>
+        <h4>Les tournesols (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-41" data-type="leonard-de-vinci" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/leonard-de-vinci/la-madone-au-fuseau.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/leonard-de-vinci/la-madone-au-fuseau.jpg"
+                 alt="Léonard de Vinci, La madone au fuseau">
+        </a>
+        <h4>La madone au fuseau (300$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-42" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/lanuitetoilee.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/lanuitetoilee.jpg" alt="Van Gogh, La nuit étoilée">
+        </a>
+        <h4>La nuit étoilée (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+<li data-id="p-43" data-type="van-gogh" class="span3">
+    <div class="work">
+        <a href="assets/img/tableaux/van-gogh/le-cris.jpg" rel="prettyPhoto">
+            <img src="assets/img/tableaux/van-gogh/le-cris.jpg" alt="Van Gogh, Le cris">
+        </a>
+        <h4>Le cris (225$)</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+        <div class="widget-footer">
+            <p>
+                <a href="#" class="btn btn-primary">acheter</a>&nbsp;
+                <a href="#" class="btn">Plus d'info</a>
+            </p>
+        </div>
+    </div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row fix">
+            <div class="span3">
+                <h4><i class="icon-star icon-white"></i>&nbsp; Toiles et Cadres</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="#">Toiles</a></li>
+                        <li><a href="">Cadres</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-cogs icon-white"></i>&nbsp; Services</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">Restauration</a></li>
+                        <li><a href="">Expertise</a></li>
+                        <li><a href="">Livraison</a></li>
+                        <li><a href="">Les services</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-beaker icon-white"></i>&nbsp; À propos</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">Notre travaille</a></li>
+                        <li><a href="">Notre Leadership</a></li>
+                        <li><a href="personnel.html">Notre Personnel</a></li>
+                        <li><a href="">Nouveauté</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-thumbs-up icon-white"></i>&nbsp; Aide</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="contact.html"> Contactez-nous</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span3">
+                <h4><i class="icon-hand-right icon-white"></i>&nbsp; Média sociaux</h4>
+
+                <div class="social-icons-row">
+                    <a href="#"><i class="icon-twitter"></i></a>
+                    <a href="#"><i class="icon-facebook"></i></a>
+                    <a href="#"><i class="icon-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="container fix">
+            <p>
+                &copy; 2013 Art-toile Inc. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.quicksand.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/prettyshop-apart.js"></script>
+</body>
+</html>
+

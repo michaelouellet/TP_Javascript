@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Art-toile | Adresse de la compagnie et formulaire de contact">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/font-awesome-ie7.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/art-toilecss.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39041320-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="span2">
+                <a href="index.html" class="brand brand-bootbus"><img src="assets/img/logo-art-toile.png"
+                                                                      alt="logo art-toile"></a>
+            </div>
+            <div class="span9">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav pull-right">
+                    <li><a href="">Se login</a></li>
+                    <li><a href="">Panier</a></li>
+                </ul>
+
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Toiles & Cadres<b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="tableaux.html">Toiles</a></li>
+                                <li><a href="">Cadres</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Expertise</a></li>
+                                <li><a href="">Restauration</a></li>
+                                <li><a href="">Livraison</a></li>
+                                <li><a href="">Les services</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">À propos<b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Notre travaille</a></li>
+                                <li><a href="">Notre Leadership</a></li>
+                                <li><a href="personnel.html">Notre Personnel</a></li>
+                                <li><a href="">Nouveauté</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="contact.html">contacter</a></li>
+                        <li>
+                            <form id="search-form" class="navbar-form">
+                                <input type="text" name="search">
+                                <a href="#"></a>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="content">
+    <div class="sub-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Nous contacter</h1>
+            </div>
+            <div class="span4">
+                <h4>Lieu</h4>
+
+                <div class="batiment">
+                    <img src="assets/img/batiment-art-toile.jpg" alt="Image du bâtiment de L'Art-Toile inc.">
+                </div>
+                <address>
+                    <strong class="clr">Art-toile Inc.<br>
+                        254 Crémazie Ouest<br>
+                        Montréal,(Québec), Canada, J4G 4T4</strong><br>
+                    <span>Télephone:</span> 514 522-2525<br>
+                    <span>FAX:</span> 1 800 522-2526 <br>
+                    E-mail: <a href="">art-toile@gmail.com</a>
+                </address>
+            </div>
+            <div class="span6">
+                <h4>Nous écrire</h4>
+
+                <div class="contact-form">
+                    <form id="formulaire" method="get" action="/">
+                        <fieldset>
+                            <legend>Formulaire de demande</legend>
+
+                            <div id="element2">
+                                <div>
+                                    <label for="nom">
+                                        Nom
+                                    </label>
+                                    <input id="nom" name="user[nom]">
+                                </div>
+
+                                <div>
+                                    <label for="prenom">
+                                        Prénom
+                                    </label>
+                                    <input id="prenom" name="user[prenom]">
+                                </div>
+
+                                <div>
+                                    <label for="email">
+                                        Email
+                                    </label>
+                                    <input id="email" name="user[email]">
+                                </div>
+
+                                <div>
+                                    <label for="url">
+                                        Url
+                                    </label>
+                                    <input id="url" name="user[url]">
+                                </div>
+
+                                <div>
+                                    <label>
+                                        Sujet de votre demande
+                                    </label>
+                                    <select id="sujet">
+                                        <option selected="selected" value="00">-- Veuillez choisir un sujet --</option>
+                                        <option value="01">Besoin d'info</option>
+                                        <option value="02">Commander les toiles</option>
+                                    </select>
+                                </div>
+
+                                <div class="description">
+                                    <label for="ccomment">Description</label>
+                                    <textarea id="ccomment" name="user[comment]" cols="22" rows="5"
+                                              class="required"></textarea>
+                                </div>
+
+                                <div class="commande">
+                                    Commande de toiles
+                                </div>
+
+                                <div class="commande">
+                                    <label>
+                                        Quantité
+                                    </label>
+                                    <input id="quantite">
+                                </div>
+
+                                <div class="commande">
+                                    <label>
+                                        Toile
+                                    </label>
+                                    <select id="peintre_toile">
+                                        <option selected="selected" value="00">-- Veuillez choisir un peintre --
+                                        </option>
+                                        <option value="01">Claude Monet</option>
+                                        <option value="02">Édouard Manet</option>
+                                        <option value="03">Ernst Ludwig Kirchner</option>
+                                        <option value="04">Léonard De Vinci</option>
+                                        <option value="05">Michel-Ange</option>
+                                        <option value="06">Van Gogh</option>
+                                    </select>
+                                </div>
+                                <div class="pull-right">
+                                    <button class="btn" id="soumission">Soumettre</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row fix">
+            <div class="span3">
+                <h4><i class="icon-star icon-white"></i>&nbsp; Toiles et Cadres</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="#">Toiles</a></li>
+                        <li><a href="">Cadres</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-cogs icon-white"></i>&nbsp; Services</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">Restauration</a></li>
+                        <li><a href="">Expertise</a></li>
+                        <li><a href="">Livraison</a></li>
+                        <li><a href="">Les services</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-beaker icon-white"></i>&nbsp; À propos</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">Notre travaille</a></li>
+                        <li><a href="">Notre Leadership</a></li>
+                        <li><a href="personnel.html">Notre Personnel</a></li>
+                        <li><a href="">Nouveauté</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <h4><i class="icon-thumbs-up icon-white"></i>&nbsp; Aide</h4>
+                <nav>
+                    <ul class="quick-links">
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="contact.html"> Contactez-nous</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span3">
+                <h4><i class="icon-hand-right icon-white"></i>&nbsp; Média sociaux</h4>
+
+                <div class="social-icons-row">
+                    <a href="#"><i class="icon-twitter"></i></a>
+                    <a href="#"><i class="icon-facebook"></i></a>
+                    <a href="#"><i class="icon-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="container fix">
+            <p>
+                &copy; 2013 Art-toile Inc. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/contact.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+</body>
+</html>
